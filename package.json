@@ -1,0 +1,25 @@
+{
+    "name": "ideia-unica",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cabraldasilvac/ideia-unica.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cabraldasilvac/ideia-unica/issues"
+    },
+    "homepage": "https://github.com/cabraldasilvac/ideia-unica#readme",
+    "dependencies": {
+        "next": "^12.1.6",
+        "react": "ˆ17.0.1",
+        "react-dom": "^18.1.0"
+    }
+}
