@@ -1,11 +1,10 @@
 import { useState } from 'react';
 
 function Home() {
-    return ( <
-        div >
+    return ( < div >
         <
-        h1 > Home < /h1> <
-        Contator / >
+        h1 > Home < /h1>  <
+        Contador / >
         <
         /div>
     )
@@ -17,12 +16,11 @@ function Contador() {
     function adicionarContador() {
         setContador(contador + 1);
     }
-    return ( <
-        div >
+    return ( < div >
         <
         div > { contador } <
-        button onClick = { adicionarContador } > Adicionar < /button> < /
-        div > <
+        button onClick = { adicionarContador } > Adicionar < /button>  <
+        /div>  <
         /div>
     )
 }

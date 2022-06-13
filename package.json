@@ -19,7 +19,7 @@
     "homepage": "https://github.com/cabraldasilvac/ideia-unica#readme",
     "dependencies": {
         "next": "^12.1.6",
-        "react": "ˆ17.0.1",
+        "react": "^17.0.1",
         "react-dom": "^18.1.0"
     }
 }
