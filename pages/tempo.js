@@ -1,4 +1,4 @@
-function Tempo(request, response) {
+function Tempo(props) {
    
     const dynamicDate = new Date();
     const dynamicDateString = dynamicDate.toGTMString();
