@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 function Tempo(props) {
+    console.log('> Passando pelo Frontend;')
     const dynamicDate = new Date();
     const dynamicDateString = dynamicDate.toGMTString();
     
@@ -14,7 +15,8 @@ return
 )
 }
 
-export function getStaticProps(){
+export function getStaticProps() {
+    console.log('> Passando pelo getStaticProps().')
     const staticDate = new Date();
     const staticDateString = staticDate.toGMTString();
 
