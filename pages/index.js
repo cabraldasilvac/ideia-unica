@@ -2,10 +2,11 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 function Home() {
-    return ( 
+    return 
+    ( 
     <div>
         <h1>Home</h1> 
-        <Link href="/Sobre">
+        <Link href="/sobre">
         <a>Acessar página Sobre</a>
         </Link> 
         <Contador />
@@ -27,4 +28,5 @@ function Contador() {
         </div>
     )
 }
+
 export default Home
