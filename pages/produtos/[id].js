@@ -29,7 +29,7 @@ export async function getStaticPaths(){
 }
 
 export async function getStaticProps(context){
-  await delay(5000);
+  // await delay(5000);
   const id = context.params.id; 
 
   return {
@@ -44,7 +44,8 @@ function Produtos(props){
   return <div>Id do Produto: {props.id}</div>
 }
 export default Produtos;
-
+/*
 function delay(ms){
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+*/
