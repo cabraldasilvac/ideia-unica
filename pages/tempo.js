@@ -27,5 +27,5 @@ export async function getStaticProps() {
         revalidate: 1
     }
 }
-//const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
 export default Tempo;

@@ -8,6 +8,10 @@ export async function getServerSideProps(context){
   }
 }
 */
+
+import { useState } from 'react';
+import Link from 'next/link';
+
 export async function getStaticPaths(){
   return{
     paths: [{
@@ -20,7 +24,7 @@ export async function getStaticPaths(){
         }
       }
     ],
-    fallback: false
+    fallback: 'blocking'
   }
 }
 
