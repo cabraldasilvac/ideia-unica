@@ -39,9 +39,8 @@ function Produtos(props){
   
   return <div>Id do Produto: {props.id}</div>
 }
-
 export default Produtos;
 
 function delay(ms){
-  return new Promise(resolve => setTimeout(resolve,ms));
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
