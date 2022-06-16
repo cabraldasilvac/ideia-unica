@@ -4,7 +4,7 @@ import Link from 'next/link';
 function Tempo(props) {
     console.log('> Passando pelo Frontend;')
     const dynamicDate = new Date();
-    const dynamicDateString = dynamicDate.toGMTString();
+    const dynamicDateString = dynamicDate.toUTCString();
     
     return
         (
@@ -18,7 +18,7 @@ function Tempo(props) {
 export async function getStaticProps() {
     console.log('> Passando pelo getStaticProps();');
     const staticDate = new Date();
-    const staticDateString = staticDate.toGMTString();
+    const staticDateString = staticDate.toUTCString();
 
     return{
         props: {
