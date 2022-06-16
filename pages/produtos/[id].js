@@ -8,7 +8,6 @@ export async function getServerSideProps(context){
   }
 }
 */
-
 export async function getStaticPaths(){
   return{
     paths: [{
@@ -37,7 +36,6 @@ export async function getStaticProps(context){
 }
 
 function Produtos(props){
-  
   return <div>Id do Produto: {props.id}</div>
 }
 export default Produtos;
