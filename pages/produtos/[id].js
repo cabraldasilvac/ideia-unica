@@ -8,20 +8,23 @@ export async function getServerSideProps(context){
   }
 }
 */
+import { GetStaticPaths } from 'next'
+
 export async function getStaticPaths(){
   return{
     paths: [{
         params:{
-          id: `1`
+          id: '1'
         }
-      },{
+      }, 
+      {
         params:{
-          id: `2`
+          id: '2'
         }
       }
     ],
-    fallback: 'blocking'
-  }
+    fallback: "blocking"
+  };
 }
 
 export async function getStaticProps(context){
@@ -38,6 +41,7 @@ export async function getStaticProps(context){
 function Produtos(props){
   return <div>Id do Produto: {props.id}</div>
 }
+
 export default Produtos;
 
  function delay(ms){
