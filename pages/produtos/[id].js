@@ -1,13 +1,3 @@
-/*
-export async function getServerSideProps(context){
-  const id = context.query.id;
-  return{
-    props:{
-      id: id
-    }
-  }
-}
-*/
 import { GetStaticPaths } from 'next'
 
 export async function getStaticPaths(){
@@ -28,10 +18,9 @@ export async function getStaticPaths(){
 }
 
 export async function getStaticProps(context){
-  await delay(5000);
+  await delay(3000);
   const id = context.params.id; 
-
-  return {
+   return {
     props: {
       id: id
     }
@@ -47,4 +36,3 @@ export default Produtos;
  function delay(ms){
     return new Promise(resolve => setTimeout(resolve, ms));
  }
-

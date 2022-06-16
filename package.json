@@ -1,7 +1,7 @@
 {
     "name": "ideia-unica",
     "version": "1.0.0",
-    "description": "",
+    "description": "Página de testes",
     "main": "index.js",
     "scripts": {
         "dev": "next dev",
@@ -14,7 +14,7 @@
     },
     "keywords": [],
     "author": "Wanderley Cabral",
-    "license": "ISC",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/cabraldasilvac/ideia-unica/issues"
     },
