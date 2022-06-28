@@ -12,4 +12,5 @@ async function tempo(request, response) {
       inscritos: inscritos
   });
 }
+
 export default tempo;

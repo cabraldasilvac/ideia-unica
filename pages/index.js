@@ -9,9 +9,8 @@ function Home(){
         </Link><br/>    
         <br/><Contador />   
     </div>)
-
-
 }
+
 function Contador() {
     const [contador, setContador] = useState(1);
 
@@ -22,8 +21,7 @@ function Contador() {
           <div>
               <div> {contador} 
               <button onClick = { adicionarContador } > Adicionar </button>  
-              </div> 
-              
+              </div>         
           </div>
     )
 }
